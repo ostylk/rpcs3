@@ -805,7 +805,7 @@ struct const_str_t<umax>
 		const char* chars2;
 	};
 
-	const_str_t()
+	constexpr const_str_t()
 		: size(0)
 		, chars(nullptr)
 	{
